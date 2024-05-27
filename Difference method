@@ -7,5 +7,6 @@ Install OpenCV in Python://OpenCV (Open Source Computer Vision Library) is an op
 pip install opencv-python
 import cv2  
 print(cv2.__version__)//Verify that the cv2 module is installed correctly  
-cap=cv2.VideoCapture('video.mp4')
+cap=cv2.VideoCapture('video.mp4')  
+
 
