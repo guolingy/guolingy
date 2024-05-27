@@ -1,0 +1,11 @@
+The basic principle of the difference method is to compare the pixel differences between two or more consecutive frames of images.  
+Let I ( x , y , t ) be the pixel value of the image at position (（x , y） ) at time t.  
+D ( x , y , t ) = ∣ I ( x , y , t ) − I ( x , y , t − 1 ) ∣  
+Where D ( x , y , t ) represents the pixel difference at position ( x , y ) between time t and time t − 1.  
+a simple example:    
+Install OpenCV in Python://OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library  
+pip install opencv-python
+import cv2  
+print(cv2.__version__)//Verify that the cv2 module is installed correctly  
+cap=cv2.VideoCapture('video.mp4')
+
